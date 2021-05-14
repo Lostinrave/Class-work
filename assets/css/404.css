@@ -50,8 +50,8 @@ a:active {
   background-color: rgb(26, 243, 207);
 }
 .buttons {
-  max-width: 100%;
-  margin: 35px;
+  max-width: 1280px;
+  margin: auto;
 }
 .buttons-wrapper {
   display: flex;
