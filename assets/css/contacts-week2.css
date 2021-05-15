@@ -1,0 +1,39 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.container-wrapper {
+    margin-top: 100px;
+}
+h1 {
+  font-size: 40px;
+}
+p,
+form {
+  font-size: 16px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  box-sizing: border-box;
+  border: none;
+  background-color: #f3f3f3;
+  color: rgb(151, 151, 151);
+}
+img {
+    width: 300px;
+    max-width: 100%;
+}
+.box {
+    max-width: 49%;
+    float: left;
+}
