@@ -1,8 +1,4 @@
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 .top {
   margin-top: 80px;
 }
