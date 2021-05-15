@@ -29,6 +29,17 @@ textarea {
   margin-bottom: 10px;
   text-decoration: none;
 }
+textarea{
+    box-sizing: border-box;
+    border: none;
+    background-color: #f3f3f3;
+    color: rgb(151, 151, 151);
+    padding: 10px 46px 10px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    resize: none;
+
+}
 input[type="submit"] {
   background-color: black;
   color: white;
