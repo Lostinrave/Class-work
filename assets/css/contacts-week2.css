@@ -49,15 +49,39 @@ img {
 }
 .box {
   float: left;
-  width: 48%;
+  width: 45%;
+  padding-right: 90px;
+  margin-left: 10%;
 }
 .form {
   margin-top: 0;
   float: right;
-  width: 48%;
-  padding-top: 33px ;
+  width: 45%;
+  padding-top: 33px;
 }
 .section {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+@media screen and (max-width: 600px) {
+  .box,
+  .form {
+    width: 100%;
+    float: none;
+    margin: auto;
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px 0px 10px 10px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px){
+  img {
+    margin-bottom: 50px;
+  }
 }
