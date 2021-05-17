@@ -29,13 +29,14 @@ textarea {
   margin-bottom: 10px;
   text-decoration: none;
   resize: none;
-  width: 70%;
+  width: 100%;
 }
 
 input[type="submit"] {
   background-color: black;
   color: white;
   border-radius: 4px;
+  border: none;
   padding: 10px;
 }
 img {
@@ -44,15 +45,21 @@ img {
   float: right;
 }
 .container {
-  max-width: 1140px;
+  max-width: 860px;
   margin: 0 auto;
 }
+
+.box, .form {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
 .box {
   float: left;
   width: 45%;
   padding-right: 90px;
-  margin-left: 10%;
 }
+
 .form {
   margin-top: 0;
   float: right;
