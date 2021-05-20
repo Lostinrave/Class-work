@@ -1,0 +1,67 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(146, 146, 146);
+}
+.title, .content{
+    font-size: 26px;
+    color: #454545;
+    line-height: 24px;
+    font-weight: 800;
+    margin: 0 10px;
+    display: block;
+}
+.title-description {
+    font-weight: 800;
+    font-size: 15px;
+    color: #454545;
+    margin: 5px 10px 10px;
+    display: block;
+}
+.item-title {
+    display: block;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+.item-description {
+    margin: 0;
+    font-size: 13px;
+    position: relative;
+    padding: 10px 15px;
+}
+.description {
+    display: block;
+    font-weight: 800;
+    font-size: 11px;
+    color: #777;
+    letter-spacing: .5px;
+    margin-top: -5px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.items, .container, .content {
+    position: relative;
+    margin: 10px;
+    flex-basis: calc(33.333% - 20px);
+    padding: 0;
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%);
+    transition: all .15s ease-in-out;
+    border-radius: 3px;
+    background: #fff;
+}
+.content {
+    max-width: 950px;
+    margin: 50px auto;
+    padding-top: 30px;
+}
+.image img {
+    width: 100%;
+}
+.download-icon {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
