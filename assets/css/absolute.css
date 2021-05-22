@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
   background: #00d054;
-  width: 35px;
+  min-width: 35px;
   height: 35px;
   position: absolute;
   left: 10px;
@@ -32,7 +32,7 @@
   justify-content: center;
   align-items: center;
   background: #00d054;
-  width: 35px;
+  min-width: 35px;
   height: 35px;
   position: absolute;
   left: 60px;
@@ -43,7 +43,7 @@
   justify-content: center;
   align-items: center;
   background: #00d054;
-  width: 120px;
+  min-width: 120px;
   height: 35px;
   position: absolute;
   left: 110px;
